@@ -1,0 +1,32 @@
+{
+  "name": "sails-hook-synoteconnect",
+  "version": "0.0.1",
+  "description": "Wraps synote-connect into a sails module",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TomKemp/sails-hook-synoteconnect.git"
+  },
+  "keywords": [
+    "Sails",
+    "Hook",
+    "Synote",
+    "Connect"
+  ],
+  "author": "Thomas Kemp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomKemp/sails-hook-synoteconnect/issues"
+  },
+  "homepage": "https://github.com/TomKemp/sails-hook-synoteconnect#readme",
+  "sails": {
+    "isHook": true
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "synote-connect": "file:../synote-connect"
+  }
+}
